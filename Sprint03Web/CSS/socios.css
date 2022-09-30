@@ -1,0 +1,91 @@
+@import url("./style.css");
+
+.titulo-socios {
+    font-size: 3.8vmin;
+}
+
+.sigla-pocas {
+    color: var(--light-green);
+    letter-spacing: 0.5vmin;
+    font-size: 3vmin;
+}
+
+.p-storytelling {
+    font-size: 2.7vmin;
+    text-align: justify;
+}
+
+.p-graph-fonts {
+    color: var(--gray);
+    opacity: 30%;
+    font-size: 2vmin;
+    text-align: justify;
+}
+
+.table-font {
+    font-size: 0.7rem;
+}
+
+.dark-text {
+    color: var(--dark-gray)
+}
+
+.green-animation {
+    letter-spacing: 0.7vmin;
+
+    -webkit-animation: color-change 5s infinite;
+    -moz-animation: color-change 5s infinite;
+    -o-animation: color-change 5s infinite;
+    -ms-animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
+}
+
+.card-invest {
+    transition: .5s;
+    color: var(--gray);
+    cursor: pointer;
+}
+
+.card-invest:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+    .p-storytelling {
+        font-size: 0.8rem;
+    }
+
+    .p-graph-fonts {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-social-midia {
+        font-size: 0.8rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .sigla-pocas {
+        font-size: 1rem;
+    }
+
+    .green-animation {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .p-storytelling {
+        font-size: 1rem;
+    }
+
+    .pocas-table {
+        align-items: baseline;
+    }
+
+    .table-font {
+        font-size: 1.5rem;
+    }
+}

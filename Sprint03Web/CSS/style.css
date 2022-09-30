@@ -1,14 +1,14 @@
 :root {
-    --light-green: rgb(38, 247, 19);
-    --normal-green: rgb(60, 209, 60);
-    --dark-green: rgb(57, 131, 79);
+    --light-green: #8afc55;
+    --normal-green: #43a543;
+    --dark-green: rgb(41, 90, 56);
     --white: white;
     --dark-gray: rgb(20, 20, 20);
     --gray: #bfcfd9;
 }
 
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -112,6 +112,8 @@ a:hover {
 .section-title {
     font-size: 6vmin;
     font-weight: 600;
+    letter-spacing: 0.2rem;
+    padding-bottom: 0.2rem;
 
     border-bottom: 2px solid var(--normal-green);
 
@@ -342,7 +344,7 @@ a i:hover {
 
 .accordionTitle {
     font-weight: 600;
-    font-size: 4vmin;
+    font-size: 3vmin;
     letter-spacing: 0.3rem;
 }
 
@@ -373,7 +375,7 @@ textarea {
     border-radius: 50%;
     border: 2px dashed var(--normal-green);
     padding: 10px;
-    
+
 }
 
 .equipe-border img {
@@ -405,6 +407,38 @@ textarea {
 .border-none:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.btn-outline-info {
+    color: var(--normal-green);
+    border-color: var(--normal-green);
+    transition: .5s;
+    padding: 1rem 5rem;
+}
+
+.btn-outline-info:hover {
+    background-color: black;
+    color: var(--light-green);
+    border-color: var(--light-green);
+    transform: scale(1.2);
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.border-invest {
+    border-bottom: 1px var(--normal-green) solid;
+    margin: 0px 1rem;
+}
+
+.footer-p {
+    font-size: 2vmin;
+}
+
+.footer-social-midia {
+    font-size: 2vmin;
+    letter-spacing: 1vmin;
 }
 
 
@@ -525,7 +559,7 @@ textarea {
     }
 
     .fiap-footer {
-        font-size: 3.5rem;
+        font-size: 5rem;
     }
 
     .textStory {
@@ -534,10 +568,6 @@ textarea {
 
     .img-history {
         width: 80%;
-    }
-
-    .text-gray {
-        margin-top: 2rem;
     }
 
     .p-main {
