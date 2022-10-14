@@ -50,9 +50,15 @@
     transform: scale(1.1);
 }
 
+.animationImg{
+    width: 85%;
+}
+.negativeMargin{
+    margin-right: -4rem;
+}
 @media (min-width: 768px) {
     .p-storytelling {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .p-graph-fonts {
