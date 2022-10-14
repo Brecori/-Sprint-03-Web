@@ -55,11 +55,12 @@ let chartCrescRob = new Chart(firstChart, {
 let chartCrescPocas = new Chart(secondChart, {
     type: 'bar',
     data: {
-        labels: ['2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'],
+        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13','14','15','16','17','18'],
         datasets: [
             {
-                label: 'Vendas Totais',
-                data: [420, 428, 437, 446, 468, 491, 516, 542, 585, 632, 682, 737, 811, 892, 981, 1128, 1297, 1492],
+                label: 'Vendas totais em função de meses de operações',
+                data: [42489, 46457, 50550, 54772, 62090, 69899, 80981, 98673, 122384, 128767, 164243, 172853, 227322, 259568, 295991, 340389, 529855, 768501],
+
                 backgroundColor: ['rgba(138, 252, 85)'],
                 borderColor: ['rgba(138, 252, 85)'],
                 borderWidth: 1
